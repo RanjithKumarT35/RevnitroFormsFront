@@ -1,0 +1,834 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*------------------------------------------------------Forms-------------------------------*/
+
+@media (max-width: 360px) {
+  .formsLogoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .firstsectionformscarpurchased h1 {
+    text-align: center;
+    font-size: 21px;
+    font-family: "Poppins";
+    margin-top: 25px;
+    margin-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carpurchaseform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputboxforcarpurchase input {
+    width: 271px;
+    height: 36px;
+    border: 2px solid #ced2de;
+    margin-top: 22px;
+    border-radius: 4px;
+    font-size: 17px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .inputboxforcarpurchase input::placeholder {
+    font-size: 18px;
+    color: #7d868d;
+    font-family: "Poppins";
+  }
+  .textareacontentsform label {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 600;
+    display: flex;
+  }
+
+  .textareacontentsform {
+    margin-top: 33px;
+    /* padding-left: 20px; */
+  }
+
+  .textatreaadressform textarea {
+    width: 269px;
+    height: 90px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .textareacarconsiltationform {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textareacarconsiltationform textarea {
+    width: 283px;
+    height: 95px;
+    border: 2px solid #ced2de;
+    border-radius: 4px;
+    margin-top: 26px;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Poppins";
+  }
+
+  .callschdeuleforrevnito h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 5px;
+  }
+
+  .dropdwoninputforrevnbitrto select {
+    width: 288px;
+    height: 43px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 17px;
+    color: #7d868d;
+    padding-left: 9px;
+    font-family: "Poppins";
+  }
+
+  .whatdoyuwanttobuy {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 14px;
+  }
+
+  .carspurchasebuuttonss button {
+    text-align: center;
+    width: 131px;
+    font-size: 18px;
+    margin-top: 28px;
+    height: 35px;
+    background: #4b39ef;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .formforrevnitro {
+    display: flex;
+    justify-content: center;
+    column-gap: 3px;
+    margin-left: -93px;
+  }
+
+  .formrevnitroround h3 {
+    font-size: 15px;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+
+  .bikeserviceformpage h3 {
+    font-size: 18px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 5px;
+  }
+
+  .bikeserviceformpage textarea {
+    width: 283px;
+    height: 114px;
+    border: 2px solid #ced2de;
+    margin-top: 19px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Poppins";
+  }
+
+  .disclaimer {
+    font-size: 13px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 1199px) {
+  .formsLogoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .firstsectionformscarpurchased h1 {
+    text-align: center;
+    font-size: 21px;
+    font-family: "Poppins";
+    margin-top: 25px;
+    margin-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .carpurchaseform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputboxforcarpurchase input {
+    width: 271px;
+    height: 36px;
+    border: 2px solid #ced2de;
+    margin-top: 22px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .inputboxforcarpurchase input::placeholder {
+    font-size: 18px;
+    color: #7d868d;
+    font-family: "Poppins";
+  }
+  .textareacontentsform label {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 600;
+    display: flex;
+  }
+
+  .textareacontentsform {
+    margin-top: 33px;
+    /* padding-left: 20px; */
+  }
+
+  .textatreaadressform textarea {
+    width: 269px;
+    height: 90px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .textareacarconsiltationform {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textareacarconsiltationform textarea {
+    width: 283px;
+    height: 95px;
+    border: 2px solid #ced2de;
+    border-radius: 6px;
+    margin-top: 26px;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Poppins";
+  }
+
+  .callschdeuleforrevnito h2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 5px;
+  }
+
+  .dropdwoninputforrevnbitrto select {
+    width: 288px;
+    height: 43px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 17px;
+    color: #7d868d;
+    padding-left: 9px;
+    font-family: "Poppins";
+  }
+
+  .whatdoyuwanttobuy {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 14px;
+  }
+
+  .carspurchasebuuttonss button {
+    text-align: center;
+    width: 131px;
+    font-size: 18px;
+    margin-top: 28px;
+    height: 35px;
+    background: #4b39ef;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .formforrevnitro {
+    display: flex;
+    justify-content: center;
+    column-gap: 3px;
+    margin-left: -93px;
+  }
+
+  .formrevnitroround h3 {
+    font-size: 15px;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+
+  .bikeserviceformpage h3 {
+    font-size: 18px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 5px;
+  }
+
+  .bikeserviceformpage textarea {
+    width: 283px;
+    height: 114px;
+    border: 2px solid #ced2de;
+    margin-top: 19px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Poppins";
+  }
+
+  .disclaimer {
+    font-size: 13px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1199px) {
+  .formsLogoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .firstsectionformscarpurchased h1 {
+    text-align: center;
+    font-size: 47px;
+    font-family: "Poppins";
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .carpurchaseform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputboxforcarpurchase input {
+    width: 435px;
+    height: 48px;
+    border: 2px solid #ced2de;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .inputboxforcarpurchase input::placeholder {
+    font-size: 18px;
+    color: #7d868d;
+    font-family: "Poppins";
+  }
+  .textareacontentsform label {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+
+  .textareacontentsform {
+    margin-top: 60px;
+  }
+
+  .textatreaadressform textarea {
+    width: 433px;
+    height: 125px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .textareacarconsiltationform {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textareacarconsiltationform textarea {
+    width: 800px;
+    height: 200px;
+    border: 2px solid #ced2de;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+
+  .callschdeuleforrevnito h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 65px;
+  }
+
+  .dropdwoninputforrevnbitrto select {
+    width: 455px;
+    height: 51px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #7d868d;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .whatdoyuwanttobuy {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 0px;
+  }
+
+  .carspurchasebuuttonss button {
+    width: 250px;
+    font-size: 24px;
+    margin-top: 45px;
+    height: 46px;
+    background: #4b39ef;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+  .formforrevnitro {
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    margin-left: -208px;
+  }
+
+  .formrevnitroround h3 {
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: "Poppins";
+  }
+
+  .bikeserviceformpage h3 {
+    font-size: 30px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .bikeserviceformpage textarea {
+    width: 720px;
+    height: 169px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Poppins";
+  }
+
+  .disclaimer {
+    font-size: 23px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 5px;
+    color: grey;
+  }
+}
+
+@media (min-width: 1350px) {
+  .formsLogoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .firstsectionformscarpurchased h1 {
+    text-align: center;
+    font-size: 47px;
+    font-family: "Poppins";
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .carpurchaseform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputboxforcarpurchase input {
+    width: 435px;
+    height: 48px;
+    border: 2px solid #ced2de;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .inputboxforcarpurchase input::placeholder {
+    font-size: 18px;
+    color: #7d868d;
+    font-family: "Poppins";
+  }
+  .textareacontentsform label {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+
+  .textareacontentsform {
+    margin-top: 60px;
+  }
+
+  .textatreaadressform textarea {
+    width: 433px;
+    height: 125px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .textareacarconsiltationform {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textareacarconsiltationform textarea {
+    width: 800px;
+    height: 200px;
+    border: 2px solid #ced2de;
+    border-radius: 10px;
+    margin-top: 60px;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+  }
+
+  .callschdeuleforrevnito h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 65px;
+  }
+
+  .dropdwoninputforrevnbitrto select {
+    width: 455px;
+    height: 51px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #7d868d;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .whatdoyuwanttobuy {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 30px;
+  }
+
+  .carspurchasebuuttonss button {
+    width: 250px;
+    font-size: 24px;
+    margin-top: 45px;
+    height: 46px;
+    background: #4b39ef;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+  .formforrevnitro {
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    margin-left: -130px;
+  }
+
+  .formrevnitroround h3 {
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: "Poppins";
+  }
+
+  .bikeserviceformpage h3 {
+    font-size: 30px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .bikeserviceformpage textarea {
+    width: 720px;
+    height: 169px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Poppins";
+  }
+
+  .disclaimer {
+    font-size: 23px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 5px;
+    color: grey;
+  }
+}
+
+@media (min-width: 1532px) {
+  .formsLogoflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .firstsectionformscarpurchased h1 {
+    text-align: center;
+    font-size: 47px;
+    font-family: "Poppins";
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .carpurchaseform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputboxforcarpurchase input {
+    width: 435px;
+    height: 48px;
+    border: 2px solid #ced2de;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .inputboxforcarpurchase input::placeholder {
+    font-size: 18px;
+    color: #7d868d;
+    font-family: "Poppins";
+  }
+  .textareacontentsform label {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+
+  .textareacontentsform {
+    margin-top: 60px;
+  }
+
+  .textatreaadressform textarea {
+    width: 433px;
+    height: 125px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .textareacarconsiltationform {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textareacarconsiltationform textarea {
+    width: 800px;
+    height: 200px;
+    border: 2px solid #ced2de;
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+
+  .callschdeuleforrevnito h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 65px;
+  }
+
+  .dropdwoninputforrevnbitrto select {
+    width: 455px;
+    height: 51px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #7d868d;
+    padding-left: 15px;
+    font-family: "Poppins";
+  }
+
+  .whatdoyuwanttobuy {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 0px;
+  }
+
+  .carspurchasebuuttonss button {
+    width: 250px;
+    font-size: 24px;
+    margin-top: 45px;
+    height: 46px;
+    background: #4b39ef;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+  .formforrevnitro {
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    margin-left: -135px;
+  }
+
+  .formrevnitroround h3 {
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: "Poppins";
+  }
+
+  .bikeserviceformpage h3 {
+    font-size: 30px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .bikeserviceformpage textarea {
+    width: 720px;
+    height: 169px;
+    border: 2px solid #ced2de;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: "Poppins";
+  }
+
+  .disclaimer {
+    font-size: 23px;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 5px;
+    color: grey;
+  }
+}
+
+/*------------------------------------------------------Forms-------------------------------*/
