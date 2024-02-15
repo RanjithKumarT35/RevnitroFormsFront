@@ -148,7 +148,7 @@ function CarConsultation() {
                   type="number"
                   placeholder="Phone No"
                   name="Mobile Number"
-                  value={formDetails.personname}
+                  value={formDetails.phoneNo}
                   onChange={(e) =>
                     setFormDetails({
                       ...formDetails,
