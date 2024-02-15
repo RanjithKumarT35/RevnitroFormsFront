@@ -117,7 +117,7 @@ function BikeServiceBooking() {
                   placeholder="Address"
                   value={formDetails.address}
                   onChange={(e) =>
-                    setFormDetails({ ...formDetails, location: e.target.value })
+                    setFormDetails({ ...formDetails, address: e.target.value })
                   }
                 ></textarea>
               </div>
