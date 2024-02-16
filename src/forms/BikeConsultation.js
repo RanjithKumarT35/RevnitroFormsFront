@@ -19,6 +19,7 @@ function BikeConsultation() {
   }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
+    alert("Wait for a few seconds. This process may take upto a minute");
     try {
       const response = await axios.post(`${url}/bike`, formDetails); // Proxy will automatically prepend the backend URL
       if (response.data) {
@@ -244,7 +245,6 @@ function BikeConsultation() {
                   <option value="06:00 pm - 8:00 pm">06:00 pm - 8:00 pm</option>
                 </select>
               </div>
-
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
               </div>
