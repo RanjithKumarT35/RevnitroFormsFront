@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import axios from "axios";
 import url from "./global";
 function Racing() {
@@ -13,6 +13,9 @@ function Racing() {
     exprerience: "Select From DropDown",
     cc: "Select From DropDown",
   });
+  useEffect(async() => {
+    await axios.get(`${url}/`);
+  }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
