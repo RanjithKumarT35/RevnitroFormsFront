@@ -1,6 +1,7 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import url from "./global";
+
 function Racing() {
   const [formDetails, setFormDetails] = useState({
     personname: "",
@@ -13,14 +14,23 @@ function Racing() {
     exprerience: "Select From DropDown",
     cc: "Select From DropDown",
   });
-  useEffect(async() => {
-    await axios.get(`${url}/`);
+
+  const [showNotification, setShowNotification] = useState(false);
+
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(`${url}/`);
+    }
+    fetchData();
   }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setShowNotification(true);
 
     try {
-      const response = await axios.post(`${url}/race`, formDetails); // Proxy will automatically prepend the backend URL
+      const response = await axios.post(`${url}/race`, formDetails);
+
       if (response.data) {
         alert("Your request has been successfully sent");
         setFormDetails({
@@ -44,6 +54,17 @@ function Racing() {
       );
     }
   };
+
+  useEffect(() => {
+    if (showNotification) {
+      const timer = setTimeout(() => {
+        setShowNotification(false);
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [showNotification]);
+
   return (
     <div>
       <div className="firstsectionformscarpurchased">
@@ -51,8 +72,14 @@ function Racing() {
         <h1>RACING</h1>
         <div className="carpurchaseform">
           <form onSubmit={handleSubmit}>
-            <div id="formschecktickbox" style={{ display: "block" }}></div>
-            <div id="formsnotchecktickbox" style={{ display: "none" }}>
+            <div
+              id="formschecktickbox"
+              style={{ display: "block" }}
+            ></div>
+            <div
+              id="formsnotchecktickbox"
+              style={{ display: "none" }}
+            >
               <div className="inputboxforcarpurchase">
                 <input type="text" placeholder="Type the Company Name" />
               </div>
@@ -234,6 +261,11 @@ function Racing() {
               <button type="submit">Submit</button>
             </div>
           </form>
+          {showNotification && (
+            <div className="notification">
+              Your request has been submitted successfully.
+            </div>
+          )}
         </div>
       </div>
     </div>
