@@ -15,7 +15,6 @@ function Alert({ message, onClose }) {
 }
 
 function BikeConsultation() {
-  const [toggle, setToggle] = useState(false);
   const [formDetails, setFormDetails] = useState({
     bikeType: "Select From DropDown",
     bikename: "Select From DropDown",
@@ -87,23 +86,26 @@ function BikeConsultation() {
       </div>
       {/* Display the custom alert if showAlert is true */}
       {showAlert && (
-        <Alert
-       style={{
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        right: '0',
-        backgroundColor: '#f8d7da',
-        color: '#721c24',
-        padding: '10px',
-        textAlign: 'center',
-        fontWeight: 'bold',
-        zIndex: '9999', // Ensure it's above other elements
-        boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-      }}
-          message="Wait for a few seconds. This process may take upto a minute"
-          onClose={handleCloseAlert}
-        />
+        <div
+          style={{
+            position: 'fixed',
+            top: '0',
+            left: '0',
+            right: '0',
+            backgroundColor: '#f8d7da',
+            color: '#721c24',
+            padding: '10px',
+            textAlign: 'center',
+            fontWeight: 'bold',
+            zIndex: '9999', // Ensure it's above other elements
+            boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+          }}
+        >
+          <Alert
+            message="Wait for a few seconds. This process may take up to a minute"
+            onClose={handleCloseAlert}
+          />
+        </div>
       )}
     </div>
   );
