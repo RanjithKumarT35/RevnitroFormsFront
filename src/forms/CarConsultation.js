@@ -1,6 +1,7 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import url from "./global";
+
 function CarConsultation() {
   const [toggle, setToggle] = useState(false);
   const [formDetails, setFormDetails] = useState({
@@ -14,13 +15,23 @@ function CarConsultation() {
     question: "",
     time: "Select From DropDown",
   });
-  useEffect(async() => {
-    await axios.get(`${url}/`);
+
+  const [showNotification, setShowNotification] = useState(false);
+
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(`${url}/`);
+    }
+    fetchData();
   }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setShowNotification(true);
+
     try {
-      const response = await axios.post(`${url}/car`, formDetails); // Proxy will automatically prepend the backend URL
+      const response = await axios.post(`${url}/car`, formDetails);
+
       if (response.data) {
         alert("Your request has been successfully sent");
         setFormDetails({
@@ -44,6 +55,17 @@ function CarConsultation() {
       );
     }
   };
+
+  useEffect(() => {
+    if (showNotification) {
+      const timer = setTimeout(() => {
+        setShowNotification(false);
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [showNotification]);
+
   return (
     <div>
       <div>
@@ -261,6 +283,23 @@ function CarConsultation() {
           </div>
         </div>
       </div>
+      {showNotification && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            left: "50%",
+            transform: "translateX(-50%)",
+            backgroundColor: "#333",
+            color: "#fff",
+            padding: "10px",
+            borderRadius: "5px",
+            zIndex: "9999",
+          }}
+        >
+          <p>Wait for some time. This process will take about a minute.</p>
+        </div>
+      )}
     </div>
   );
 }
