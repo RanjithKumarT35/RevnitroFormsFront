@@ -15,7 +15,7 @@ function BikeConsultation() {
     time: "Select From DropDown",
   });
   useEffect(async() => {
-    await axios.get("/");
+    await axios.get(`${url}/`);
   }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
