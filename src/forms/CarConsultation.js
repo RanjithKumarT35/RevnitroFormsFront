@@ -101,7 +101,7 @@ function CarConsultation() {
               <div className="dropdwoninputforrevnbitrto">
                 <select
                   name="Car Company"
-                  value={formDetails.carname}
+                 
                   onChange={(e) =>
                     setFormDetails({
                       ...formDetails,
