@@ -266,7 +266,9 @@ function BikeConsultation() {
                   <option value="06:00 pm - 8:00 pm">06:00 pm - 8:00 pm</option>
                 </select>
               </div>
-
+               <div class="disclaimer">
+                Note : This will be a paid consultation
+              </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
               </div>
