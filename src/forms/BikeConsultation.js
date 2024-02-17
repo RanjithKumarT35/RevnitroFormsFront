@@ -98,7 +98,7 @@ function BikeConsultation() {
               <div className="dropdwoninputforrevnbitrto">
                 <select
                   name="Bike Company"
-                  value={formDetails.bikename}
+                  
                   id=""
                   required
                   onChange={(e) =>
