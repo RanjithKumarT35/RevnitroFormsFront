@@ -218,7 +218,6 @@ function BikeServiceBooking() {
                   <option value="Select From DropDown" disabled>
                     Select From DropDown
                   </option>
-                  <option value="Chennai - Ambattur">Chennai - Ambattur</option>
                   <option value="Chennai - Ponamalle">
                     Chennai - Ponamalle
                   </option>
