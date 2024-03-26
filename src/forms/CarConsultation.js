@@ -276,13 +276,13 @@ function CarConsultation() {
                   <option value="06:00 pm - 8:00 pm">06:00 pm - 8:00 pm</option>
                 </select>
               </div>
-                     <div class="disclaimer">
+               <div class="disclaimer">
                <input
                     type="checkbox"
                     id="formscheckboxxxx"
                     required
-                  />
-                      {&nbsp}<span style={{fontSize:"17px"}}>I acknoledge this will be a paid consultation.</span>
+                />
+                &nbsp;<span style={{fontSize:"17px"}}>I acknoledge this will be a paid consultation.</span>
               </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
