@@ -272,7 +272,7 @@ function BikeConsultation() {
                     id="formscheckboxxxx"
                     required
                   />
-                 &nbsp I acknoledge this will be a paid consultation.
+                 &nbsp<span>I acknoledge this will be a paid consultation.</span>
               </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
