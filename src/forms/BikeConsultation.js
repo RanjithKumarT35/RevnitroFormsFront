@@ -267,7 +267,12 @@ function BikeConsultation() {
                 </select>
               </div>
                <div class="disclaimer">
-                Note : This will be a paid consultation
+                   <input
+                    type="checkbox"
+                    id="formscheckboxxxx"
+                    required
+                  />
+                 I acknoledge this will be a paid consultation.
               </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
