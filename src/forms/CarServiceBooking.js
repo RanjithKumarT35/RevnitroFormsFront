@@ -238,7 +238,6 @@ function CarServiceBooking() {
                   <option value="Select From DropDown" disabled>
                     Select From DropDown
                   </option>
-                  <option value="Chennai">Chennai</option>
                   <option value="Erode">Erode</option>
                   <option value="Coimbatore">Coimbatore</option>
                 </select>
