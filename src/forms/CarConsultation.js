@@ -282,7 +282,7 @@ function CarConsultation() {
                     id="formscheckboxxxx"
                     required
                   />
-                 &nbsp<span style={{fontSize:"17px"}}>I acknoledge this will be a paid consultation.</span>
+                      {&nbsp}<span style={{fontSize:"17px"}}>I acknoledge this will be a paid consultation.</span>
               </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
