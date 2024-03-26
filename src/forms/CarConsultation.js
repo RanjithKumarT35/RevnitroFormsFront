@@ -277,7 +277,12 @@ function CarConsultation() {
                 </select>
               </div>
                      <div class="disclaimer">
-                Note : This will be a paid consultation
+               <input
+                    type="checkbox"
+                    id="formscheckboxxxx"
+                    required
+                  />
+                 &nbsp<span>I acknoledge this will be a paid consultation.</span>
               </div>
               <div className="carspurchasebuuttonss">
                 <button type="submit">Submit</button>
